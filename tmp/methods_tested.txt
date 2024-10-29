@@ -1,0 +1,8 @@
+1- client.list_buckets() #list all the list_buckets
+2- client.bucket_exists("my-first-bucket") #check if bucket bucket_exists
+3- client.make_bucket(bucket_name) #make empty bucket
+4- client.remove_bucket(new_bucket) #remove an emoty bucket
+5- client.fget_object("bucket", "object-name", "object_name") #download objects on local system, params: bucketname, objectname, filename 
+6- client.fput_object(new_bucket_name,object_name,file_path) # upload file in a bucket params: bucketname, objectname, filepath
+7- client.stat_object("4rfyogpd1ejpyjaexxfome35","test.txt") #get information and metadata of an object
+8- client.remove_object("4rfyogpd1ejpyjaexxfome35","test.txt") #remove an object 
